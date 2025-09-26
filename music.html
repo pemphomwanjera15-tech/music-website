@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music World - Monetization</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #121212;
+      color: #fff;
+    }
+    header {
+      background: #1db954;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #000;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+      margin: 20px auto;
+      width: 80%;
+      border-radius: 10px;
+      background: #1e1e1e;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+    .music-player audio {
+      margin-top: 20px;
+      width: 100%;
+    }
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .plan {
+      background: #282828;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #1db954;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #18a34a;
+    }
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎶 Music World</h1>
+    <p>Where Artists Get Paid for Their Talent</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#music">Music</a>
+    <a href="#monetization">Monetization</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="section" id="home">
+    <h2>Welcome to Music World</h2>
+    <p>Stream, share, and monetize your music.</p>
+  </div>
+
+  <div class="section music-player" id="music">
+    <h2>Featured Music</h2>
+    <p>🎧 Enjoy the latest uploads</p>
+    <audio controls>
+      <source src="sample.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="section" id="monetization">
+    <h2>Monetization Options</h2>
+    <p>Choose how you want to earn from your music.</p>
+    <div class="plans">
+      <div class="plan">
+        <h3>💰 Direct Sales</h3>
+        <p>Sell your music directly to fans.</p>
+        <a href="#" class="btn">Upload & Sell</a>
+      </div>
+      <div class="plan">
+        <h3>🎧 Streaming</h3>
+        <p>Earn per stream on our platform.</p>
+        <a href="#" class="btn">Enable Streaming</a>
+      </div>
+      <div class="plan">
+        <h3>❤️ Donations</h3>
+        <p>Fans can support you directly.</p>
+        <a href="#" class="btn">Setup Donations</a>
+      </div>
+      <div class="plan">
+        <h3>⭐ Premium Membership</h3>
+        <p>Offer exclusive content to paid subscribers.</p>
+        <a href="#" class="btn">Create Membership</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>📧 Email: support@musicworld.com</p>
+    <p>📞 Phone: +26599368490</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Music World | All Rights Reserved</p>
+  </footer
